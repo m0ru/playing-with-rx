@@ -1,0 +1,34 @@
+{
+  "name": "playing-with-rx",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0ru/playing-with-rx.git"
+  },
+  "author": "Moru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0ru/playing-with-rx/issues"
+  },
+  "homepage": "https://github.com/m0ru/playing-with-rx#readme",
+  "dependencies": {
+    "jspm": "^0.15.7"
+  },
+  "jspm": {
+    "directories": {},
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "rx": "npm:rx@^2.5.3",
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
